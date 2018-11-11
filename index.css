@@ -12,14 +12,14 @@ table td {
     font-size: 24pt;
 }
 
-#namebox {
+input[type=text] {
     border-color: #0400f0;
     color: #ffc124;
     font-size: 24pt;
     font-family: "Comic Sans MS","Lucida Console","Verdana";
 }
 
-#cheddarizebtn {
+button {
     background-color: #0400f0;
     color: #ffc124;
     font-size: 24pt;
