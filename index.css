@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    font-family: "Lucida Console","Verdana";
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table td {
+    color: #0400f0;
+    font-size: 24pt;
+}
+
+#namebox {
+    border-color: #0400f0;
+    color: #ffc124;
+    font-size: 24pt;
+}
+
+#cheddarizebtn {
+    background-color: #0400f0;
+    color: #ffc124;
+    font-size: 24pt;
+}
