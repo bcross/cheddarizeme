@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <head>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-    <div><input type="text" name="name" id="namebox"></div>
-    <div><button type="button" id="cheddarizebtn">Cheddarize Me!</button></div>
-    <div><table id="results"><tbody></tbody></table></div>
+    <div><input type="text" name="name" id="namebox" onkeypress="nameboxkp(event)"></div>
+    <div><button type="button" id="cheddarizebtn" onclick="cheddarize()">Cheddarize Me!</button></div>
+    <div><table><tbody id="resultsbody"></tbody></table></div>
 </body>
 <script type="text/javascript" src="index.js"></script>

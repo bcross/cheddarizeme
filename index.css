@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    font-family: "Comic Sans","Lucida Console","Verdana";
+    font-family: "Comic Sans MS","Lucida Console","Verdana";
 }
 table {
     margin-left: auto;
@@ -16,10 +16,12 @@ table td {
     border-color: #0400f0;
     color: #ffc124;
     font-size: 24pt;
+    font-family: "Comic Sans MS","Lucida Console","Verdana";
 }
 
 #cheddarizebtn {
     background-color: #0400f0;
     color: #ffc124;
     font-size: 24pt;
+    font-family: "Comic Sans MS","Lucida Console","Verdana";
 }
