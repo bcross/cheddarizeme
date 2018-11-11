@@ -45,7 +45,7 @@ function cheddarize() {
     if (name === "") {return}
     document.getElementById("cheddarizebtn").innerHtml = "Cheddarized!";
     var namecheeses = cheeses.filter(cheese => cheese[0].toLowerCase() == name[0].toLowerCase());
-    var namecheese = name + " " + namecheeses[Math.floor(Math.random() * namecheeses.length)]
+    var namecheese = namecheeses[Math.floor(Math.random() * namecheeses.length)]
     addToList(name + " " + namecheese);
     var kv = {"name":name,"namecheese":namecheese};
     kvstore.push(kv);
